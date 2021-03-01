@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+.main__recruit {
+    margin: 40px 35px
+}
+
+.recruit__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rec__name {
+    margin: 0px 15px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.8em;
+
+}
+
+.rec__button {
+    margin: 0px 15px;
+    align-self: center;
+}
+
+.rec__button #btn {
+    padding: 9px 26px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: larger;
+}
+.rec__button #btn:hover {
+    color: #ffffff;
+    background-color: #9965f4;
+}
+
+.recruit__lists{
+    display: flex;
+    flex-direction: column;
+}
+
+.recruit__fields {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    
+}
+
+.recruit__fields #name{
+width: 33%;
+text-align: center;
+padding: 0px 50px;
+padding-right: 0px;
+}
+.recruit__fields #designation{
+    width: 33%;
+
+}
+.recruit__fields #status{
+    width: 33%;
+
+}
+
+
+.recruit__list {
+
+}

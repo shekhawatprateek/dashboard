@@ -1,0 +1,20 @@
+
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    background: #efe5fd;
+    border-top-right-radius: 10px;
+}
+
+.dashboard__content {
+    display: flex;
+}
+
+.second__column {
+    flex: 1;
+}
+
+.third__column {
+    flex: .45;
+}

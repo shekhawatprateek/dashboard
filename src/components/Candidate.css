@@ -1,0 +1,44 @@
+.candidate__card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 50px ;
+       border-radius: 15px;
+    padding: 10px 0px;
+    font-size: larger;
+}
+
+.candidate__card:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1)
+}
+ 
+.candidate__photo {
+justify-content: center;
+}
+
+.candidate__name {
+    align-self: center;
+
+}
+
+.candidate__designation {
+    align-self: center;
+    margin: 15px 5px;
+}
+.candidate__icons{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px 5px;
+
+}
+
+.candidate__details {
+    justify-content: center;
+
+}
+
+.tble tr{
+height: 40px;
+}
+

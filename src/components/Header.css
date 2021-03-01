@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+.main__header {
+    display: flex;
+}
+
+.header__name {
+    /* flex: 50; */
+    flex-grow: 1.75;
+    padding: 0px 20px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.5em;
+}
+
+.icons {
+     display: flex;
+     /* flex: 25; */
+     flex-grow: .25;
+     align-items: center;
+}
+
+.search__icon {
+    flex-grow: .3;
+    
+}
+.mail__icon {
+    flex-grow: .3;
+
+}
+.notify__icon {
+    flex-grow: .3;
+
+}
+
+
+.candidate__details {
+    display: flex;
+    flex-grow: .25;
+    /* flex: 25; */
+}
+
+.candidate__name {
+    flex-grow: .9;
+    padding: 5px;
+    font-weight: bolder;
+}
+.candidate__photo {
+    flex-grow: .1;
+    padding: 5px;
+    align-self: center;
+}

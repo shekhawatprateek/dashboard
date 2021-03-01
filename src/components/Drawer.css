@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  background-color: #9965f4;
+  border-top-left-radius: 10px;
+}
+
+.drawer__header {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+}
+
+.drawer__logo {
+  margin: 10px 20px;
+}
+
+.drawer__brandname {
+  font-weight: bolder;
+  align-self: center;
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 2em;
+}
+
+.drawer__buttons a {
+  display: flex;
+  /* border: 2px solid red; */
+  color: white;
+  text-decoration: none;
+  font-family: 'Stick', sans-serif;
+}
+
+.drawer__button {
+  display: flex;
+}
+
+a {
+  margin: 25px 50px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: white;
+  color: #9965f4;
+}

@@ -1,0 +1,38 @@
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    font-size: larger;
+}
+
+.list__picname {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    }
+ 
+    
+.picname__name {
+    align-self: center;
+    margin-left: 10px;
+}
+
+
+.list__designation {
+    align-self: center;
+
+
+}
+.list__status{
+    align-self: center;
+
+
+}
+.list__more {
+    align-self: center;
+
+}
